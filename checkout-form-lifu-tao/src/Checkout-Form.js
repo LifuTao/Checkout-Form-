@@ -4,7 +4,7 @@ import Product from "./Product.js";
 import Address from "./Address.js";
 
 function CheckoutForm() {
-  //React Hooks
+  //Logic to hide/show billing address
   const [shippingBillingAddressSame, setShippingBillingAddressSame] = useState(false);
   return (
     <div className="Page-Container">
@@ -16,10 +16,9 @@ function CheckoutForm() {
             onClick= {() => setShippingBillingAddressSame(!shippingBillingAddressSame)}/>
           <label> Shipping address is the same as my billing address</label><br/>
         </div>
-          <div>
-            {!shippingBillingAddressSame && <Address/>}
-          </div>
-          
+
+        {!shippingBillingAddressSame && <Address/>}
+        
         <div className="Select-Payment">
           <input type="radio" name="payment" value="Credit"/> 
           <label> Credit Card</label>
@@ -86,7 +85,6 @@ function CheckoutForm() {
             <p>Total (USD)</p>
             <p>$644.97</p>
         </div>
-
       </div>
     </div>
   );
