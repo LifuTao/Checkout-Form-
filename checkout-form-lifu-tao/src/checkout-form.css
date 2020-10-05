@@ -2,3 +2,53 @@
   display: flex;
   flex-direction: column;
 }
+.Checkout-Form 
+input {
+  /* margin-left: 5%; */
+  margin-bottom: 3%;
+}
+
+.Address-Inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.Shipping-Address-Same {
+  display: flex;
+  flex-direction: row;
+}
+
+.Select-Input {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Product-Container {
+  border-top: 1px solid black;
+  padding: 3%;
+}
+.Product-Top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom:0px;
+}
+
+.Product-Name {
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.Brief-Description {
+  margin-top: 0;
+}
+
+.Cart-Container {
+  border: 1px solid black;
+  border-top: none;
+}
