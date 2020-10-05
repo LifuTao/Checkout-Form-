@@ -3,6 +3,7 @@ CSC 473
 1. git clone the project
 
 2. cd into checkout-form-lifu-tao 
+
 ^ command ( "cd checkout-form-lifu-tao" )
 
 3. type into terminal "npm start"
