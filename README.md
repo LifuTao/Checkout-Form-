@@ -2,6 +2,8 @@
 CSC 473
 1. git clone the project
 
+do "npm i" to get required node_modules for the app
+
 2. cd into checkout-form-lifu-tao 
 
 ^ command ( "cd checkout-form-lifu-tao" )
